@@ -2,9 +2,9 @@ public class Memory {
     String producer;
     String make;
     String quantity;
-    String clockSignal;
+    double clockSignal;
 
-    Memory(String producer, String make, String quantity, String clockSignal) {
+    Memory(String producer, String make, String quantity, double clockSignal) {
         this.producer = producer;
         this.make = make;
         this.quantity = quantity;
