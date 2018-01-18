@@ -8,6 +8,4 @@ public class Computer {
         this.processor = processor;
         this.memory = memory;
     }
-
-
 }

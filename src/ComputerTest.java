@@ -32,6 +32,12 @@ public class ComputerTest {
         System.out.println(computer2.name + ", " + computer2.processor.clockSignal);
         System.out.println("");
 
+        // create computer with help of assembly method
+        ComputerAssembly ass = new ComputerAssembly();
+        ass.assembly("Acer", "Intel", "G3930", 3500,
+                "Kingston", "G4567", "8 GB", 1333);
+
+        // print the result of assembly computer
     }
 
 }
